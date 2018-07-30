@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Jquery Project</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="index.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,700" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="#tab1" class="active">Tab 1</a>
+  <a href="#tab2">Tab 2</a>
+  <a href="#tab3">Tab 3</a>
+  <div class="dropdown">
+    <button class="dropbtn">Tab 4  
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="#tab5">Tab 5</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+<aside id="secondary" class="col-md-3 col-sm-3">
+    <div class="row">
+
+        
+        <div class="widget">
+            <div class="widget-inner">
+                <h3 class="widget-title">Collapse 1</h3>
+
+                <div id="code" class="widget-content">
+                    <p>You Clicked here</p>
+                </div>
+            </div>
+        </div>
+       <div class="widget">
+            <div class="widget-inner">
+                 <h3 class="widget-title">Collapse 2</h3>
+
+                <div id="store" class="widget-content">
+                    <p>Now here!</p>
+                </div>
+            </div>
+        </div>
+       
+        <div class="widget">
+            <div class="widget-inner">
+                 <h3 class="widget-title">Collapse 3</h3>
+
+                <div id="books" class="widget-content">
+                    <p>Here too!!!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</aside>
+
+
+
+
+<a class="btn" data-popup-open="popup-1" href="#">Click Here</a>
+
+<div class="popup" data-popup="popup-1">
+	<div class="popup-inner">
+		<h2>Popup</h2>
+		<p>You click here...You click here...You click here...You click here...You click here...You click here...You click here...</p>
+		<p><a data-popup-close="popup-1" href="#">Close</a></p>
+		
+		<a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+	</div>
+</div>
+
+
+
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="index.js"></script>
+<script type="text/javascript"></script>
+
+</body>
+</html>
+
